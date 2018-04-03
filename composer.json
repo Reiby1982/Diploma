@@ -1,0 +1,30 @@
+{
+    "name": "kushin/php_project",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kushin\\Php_project\\": "private/"
+        }
+    },
+    
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/web-development-courses/engine"
+        }
+    ],
+    "require": {
+        "web/engine": "dev-master"
+    }
+    
+}
+/*
+2. Слайдер
+3. Сбор формы в таблицу
+4. Регистрация
+5. Авторизация
+6. Все базы данных слить из mysql
+*/
